@@ -1,3 +1,6 @@
+import random
+
+
 def check_input():
     """Essa funcao valida se o tipo de dado passado é de fato um valor do tipo inteiro"""
     try:
@@ -26,7 +29,7 @@ def valida_entrada():
             return numero
 
 
-numero_sorte = 7
+numero_sorte = random.randint
 
 for i in range(3):
     
