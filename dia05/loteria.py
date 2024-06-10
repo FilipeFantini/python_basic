@@ -29,7 +29,7 @@ def valida_entrada():
             return numero
 
 
-numero_sorte = random.randint
+numero_sorte = random.randint(1,15)
 
 for i in range(3):
     
